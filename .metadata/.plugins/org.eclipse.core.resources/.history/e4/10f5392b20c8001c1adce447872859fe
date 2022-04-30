@@ -1,0 +1,15 @@
+package com.callor.app.model;
+
+public class ScoreVO {
+	
+	private  String Num;
+	private  Integer kor;
+	private  Integer eng;
+	private  Integer math;
+	private  Integer sum;
+	private  float avg;
+	
+	
+	
+
+}

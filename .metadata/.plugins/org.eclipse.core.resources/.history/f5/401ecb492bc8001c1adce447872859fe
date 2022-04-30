@@ -1,0 +1,8 @@
+package com.callor.app.controller;
+
+public class ScoreController {
+
+	public static void main(String[] args) {
+		 
+	}
+}

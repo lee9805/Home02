@@ -1,0 +1,69 @@
+package com.callor.app.model;
+
+public class ScoreVO {
+	
+	private  int Num;
+	private  int kor;
+	private  int eng;
+	private  int math;
+	private  int sum;
+	private  float avg;
+	public int getNum() {
+		return Num;
+	}
+	public void setNum(int i) {
+		Num = i;
+	}
+	public int getKor() {
+		return kor;
+	}
+	public void setKor(int kor) {
+		this.kor = kor;
+	}
+	public int getEng() {
+		return eng;
+	}
+	public void setEng(int eng) {
+		this.eng = eng;
+	}
+	public int getMath() {
+		return math;
+	}
+	public void setMath(int math) {
+		this.math = math;
+	}
+	public int getSum() {
+		int sum = this.kor;
+		sum += this.eng;
+		sum += this.math;
+		return sum;
+	}
+	public void setSum(int sum) {
+		this.sum = sum;
+		
+	}
+	public float getAvg() {
+		int sum = this.kor;
+		sum += this.eng;
+		sum += this.math;
+		
+		float avg =(float)sum/3;
+		return avg;
+	}
+	public void setAvg(float avg) {
+		this.avg = avg;
+	}
+	@Override
+	public String toString() {
+		return "ScoreVO [num=" + Num 
+				+ ", kor=" + kor 
+				+ ", eng=" + eng 
+				+ ", math=" + math 
+				+ ", sum=" + sum 
+				+ ", avg=" + avg + "]";
+	}
+	
+	
+	
+
+}

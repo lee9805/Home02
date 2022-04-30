@@ -1,0 +1,10 @@
+package com.callor.app.controller;
+
+import com.callor.app.service.ScoreService;
+
+public class ScoreController {
+	
+	ScoreService score = new ScoreService();
+	
+
+}
